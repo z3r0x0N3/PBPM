@@ -1,0 +1,33 @@
+const thoughtTags = {
+    'psy:THT-EVAL-POS': 'Positive evaluative judgment (e.g. “This is good”, “Makes sense”).',
+    'psy:THT-EVAL-NEG': 'Negative evaluative response (e.g. “This is wrong”, “I don’t like this”).',
+    'psy:THT-EVAL-AMB': 'Ambiguous or mixed evaluation.',
+    'psy:THT-BEL-ACTV': 'Activation of a preexisting belief or bias.',
+    'psy:THT-BEL-CHAL': 'Challenge or contradiction to prior belief.',
+    'psy:THT-BEL-FRM': 'Formation of new belief or reinterpretation.',
+    'psy:THT-VAL-ALIGN': 'Detected alignment with internal values.',
+    'psy:THT-VAL-DIS': 'Detected conflict with internal values.',
+    'psy:THT-COMP-SELF': 'Internal comparison to self-image or past behavior.',
+    'psy:THT-COMP-OTHER': 'Comparison to others (peers, status, success, etc). ',
+    'psy:THT-RSN-DEDUCT': 'Deductive logic applied (general → specific).',
+    'psy:THT-RSN-INDUCT': 'Inductive logic (specific → generalization).',
+    'psy:THT-RSN-ABDUCT': 'Inferential “best guess” reasoning.',
+    'psy:THT-COST-BEN': 'Evaluation of gain vs. risk.',
+    'psy:THT-INT-PROB': 'Problem-solving or puzzle-framing cognition.',
+    'psy:THT-INT-QUEST': 'Question formulation or reflective thinking.',
+    'psy:THT-META-AWARE': 'Self-awareness of the thinking process (metacognition).',
+    'psy:THT-LOAD-HIGH': 'High cognitive load (multitasking, complexity, mental fatigue).',
+    'psy:THT-LOAD-MED': 'Moderate complexity or effort.',
+    'psy:THT-LOAD-LOW': 'Minimal cognitive effort; autopilot interpretation.',
+    'psy:THT-INT-NARR': 'Engagement with personal narrative or identity.',
+    'psy:THT-INT-TEMP': 'Temporal orientation (past, present, or future thinking).',
+    'psy:THT-AUTO-RFLX': 'Automatic reflexive thoughts; fast, unfiltered.',
+    'psy:THT-ABST-HIGH': 'High abstraction; generalized, conceptual, philosophical.',
+    'psy:THT-ABST-LOW': 'Concrete, specific, pragmatic focus.',
+    'psy:THT-EMO-DRIV': 'Emotion-driven cognition.',
+    'psy:THT-RPT-LOOP': 'Repetitive or looping mental pattern.',
+    'psy:THT-RES-OPEN': 'Open to new interpretation or challenge.',
+    'psy:THT-RES-CLOSED': 'Closed or defended against new input.'
+};
+
+module.exports = thoughtTags;

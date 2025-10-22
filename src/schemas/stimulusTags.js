@@ -1,0 +1,33 @@
+const stimulusTags = {
+    'psy:STM-CHAN-SMS': 'Mobile text message (SMS).',
+    'psy:STM-CHAN-EMAIL': 'Email message.',
+    'psy:STM-CHAN-CALL': 'Voice call or voicemail.',
+    'psy:STM-CHAN-SOC': 'Social media interaction (DM, post, tag).',
+    'psy:STM-CHAN-WEB': 'Website or landing page visit.',
+    'psy:STM-MOD-VIS': 'Visual stimulus (image, UI, video).',
+    'psy:STM-MOD-AUD': 'Auditory stimulus (voice, alert tone).',
+    'psy:STM-MOD-TAC': 'Tactile or haptic input (e.g. vibration, texture).',
+    'psy:STM-MSG-DIR': 'Direct message with clear intent or CTA.',
+    'psy:STM-MSG-IND': 'Indirect messaging (ambient content, e.g. social post).',
+    'psy:STM-MSG-IMP': 'Implicit/suggestive messaging (e.g. hint, metaphor).',
+    'psy:STM-SENT-POS': 'Positively framed content.',
+    'psy:STM-SENT-NEG': 'Negative or fear-based tone.',
+    'psy:STM-SENT-NEU': 'Neutral/factual tone.',
+    'psy:STM-TRIG-HIGH': 'High emotional charge; provocative content.',
+    'psy:STM-TRIG-MED': 'Moderately emotionally charged.',
+    'psy:STM-TRIG-LOW': 'Low arousal; calm, passive tone.',
+    'psy:STM-URG-IMM': 'Urgent; requires immediate action.',
+    'psy:STM-URG-SOON': 'Important but not immediate (1–3 day range).',
+    'psy:STM-URG-LAT': 'Low urgency or long-term relevance.',
+    'psy:STM-NOVEL-NEW': 'First-time exposure.',
+    'psy:STM-NOVEL-REP': 'Repeated identical exposure.',
+    'psy:STM-NOVEL-VAR': 'Variant or altered repetition (e.g. subject-line tweak).',
+    'psy:STM-FREQ-HIGH': 'High daily frequency (3+).',
+    'psy:STM-FREQ-MED': 'Moderate frequency (1–2 times/week).',
+    'psy:STM-FREQ-LOW': 'Rare exposure (monthly or less).',
+    'psy:STM-SRC-HIGH': 'Sender is high-trust, high-relevance.',
+    'psy:STM-SRC-MED': 'Sender is moderately trusted or contextually relevant.',
+    'psy:STM-SRC-LOW': 'Sender is unknown, distrusted, or algorithmic.'
+};
+
+module.exports = stimulusTags;

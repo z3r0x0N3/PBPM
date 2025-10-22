@@ -1,0 +1,30 @@
+const orientationTags = {
+    'psy:ORI-CTRL': 'Control: Reduce uncertainty, assert dominance over variables.',
+    'psy:ORI-FRE': 'Freedom: Escape confinement, protect autonomy.',
+    'psy:ORI-ACH': 'Achievement: Seek mastery, excellence, or proof of worth.',
+    'psy:ORI-SURV': 'Survival: Preserve self, resources, and safety.',
+    'psy:ORI-CUR': 'Curiosity: Explore novelty, gain insight, resolve ambiguity.',
+    'psy:ORI-DEF': 'Defiance: Reject imposed structures or authority.',
+    'psy:ORI-VAL': 'Validation: Crave approval, recognition, and reflected self-worth.',
+    'psy:ORI-ESC': 'Escape: Avoid discomfort, constraint, or self-awareness.',
+    'psy:ORI-PAIN': 'Endurance: Withstand suffering, convert pain into identity.',
+    'psy:ORI-INT': 'Integrity: Remain aligned with internal values or ethics.',
+    'psy:ORI-EXCH': 'Exchange: Seek mutual value, trade, or reciprocity.',
+    'psy:ORI-OBS': 'Observation: Stay detached, neutral, and information-rich.',
+    'psy:ORI-REB': 'Rebirth: Destroy the self to recreate identity.',
+    'psy:ORI-BND': 'Bonding: Connect to others for meaning, protection, or resonance.',
+    'psy:ORI-DISC': 'Discovery: Find hidden truth, structure, or novelty.',
+    'psy:ORI-CTRLIN': 'Inner Control: Govern thoughts, emotions, and impulses internally.',
+    'psy:ORI-EXP': 'Expression: Project inner states into shared space.',
+    'psy:ORI-DYN': 'Dynamism: Favor movement, change, and kinetic force.',
+    'psy:ORI-ORD': 'Order: Construct systems, impose harmony, and reduce chaos.',
+    'psy:ORI-RISK': 'Risk: Pursue uncertainty, intensity, or high-stakes rewards.',
+    'psy:ORI-GROW': 'Growth: Expand capability, competence, or self-concept.',
+    'psy:ORI-SERV': 'Service: Direct action toward the good of others or systems.',
+    'psy:ORI-HARM': 'Harmony: Avoid conflict, restore balance, or soften tensions.',
+    'psy:ORI-TIME': 'Legacy: Extend significance through time or imprint.',
+    'psy:ORI-SYNC': 'Synchronization: Align with rhythms — social, biological, cosmic.',
+    'psy:ORI-FEAR': 'Fear: Orient around anticipated threat, loss, or failure.'
+};
+
+module.exports = orientationTags;
