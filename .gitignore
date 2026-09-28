@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# JavaScript/Node
+node_modules/
+dist/
+build/
+.next/
+.nyc_output/
+coverage/
+.env.local
+.env.*.local
